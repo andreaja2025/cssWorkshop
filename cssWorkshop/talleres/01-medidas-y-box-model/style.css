@@ -1,0 +1,103 @@
+/* =========================================================
+   RETO 01: MEDIDAS RELATIVAS (vh, rem, %) Y BOX MODEL
+   Objetivo: Lograr que tu diseño se vea como resultado-esperado.jpg
+   sin modificar el archivo index.html.
+   ========================================================= */
+
+/* 1. Aplica box-sizing: border-box y reinicia margin y padding en todos los elementos (*) */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. Configura html y body (fondo oscuro #0f172a, texto claro #f8fafc) */
+html,
+body {
+  background-color: #0f172a;
+  color: #f8fafc;
+  font-family: Arial, sans-serif;
+}
+
+/* 3. Haz que .pantalla-completa ocupe al menos el 100% de la altura de la pantalla (100vh) y tenga padding en rem */
+.pantalla-completa {
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+}
+
+/* 4. Limita .tarjeta-promo con width: 90%, max-width: 640px, céntrala con margin: 2rem auto y dale padding: 2.5rem y border-radius */
+.tarjeta-promo {
+  width: 90%;
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 2.5rem;
+  border-radius: 16px;
+  background-color: #1e293b;
+  border: 1px solid #334155;
+}
+
+/* 5. Usa display: inline-block en .etiqueta, .caja-metrica y .boton para que acepten padding, width y márgenes verticales */
+.etiqueta,
+.caja-metrica,
+.boton {
+  display: inline-block;
+}
+
+/* Etiqueta */
+.etiqueta {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 20px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+/* Título */
+.titulo {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #f8fafc;
+}
+
+/* Descripción */
+.descripcion {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #cbd5e1;
+  margin-bottom: 1.5rem;
+}
+
+/* Métricas */
+.metricas {
+  margin-bottom: 1.5rem;
+}
+
+.caja-metrica {
+  padding: 0.75rem 1rem;
+  margin: 0.25rem;
+  border-radius: 8px;
+  background-color: #334155;
+  color: #38bdf8;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+/* Botón */
+.boton {
+  padding: 0.85rem 1.5rem;
+  border-radius: 8px;
+  background-color: #0ea5e9;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Efecto al pasar el cursor */
+.boton:hover {
+  background-color: #0284c7;
+}

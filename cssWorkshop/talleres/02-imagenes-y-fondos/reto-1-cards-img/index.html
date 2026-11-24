@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reto 02-A — Cards de Imágenes con object-fit y aspect-ratio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="contenedor">
+    <h1 class="titulo-seccion">Galería de Tarjetas Uniformes (<code>object-fit: cover</code>)</h1>
+    <section class="fila-cards">
+      <article class="card">
+        <img src="img/foto-vertical.jpg" alt="Ilustración vertical" class="card-img foco-superior" />
+        <div class="card-body">
+          <span class="badge">Foto Original: Vertical 400×700</span>
+          <h2>Exploración Espacial</h2>
+          <p>Recorte limpio con <code>object-fit: cover</code> y <code>object-position: top</code>.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/foto-panoramica.jpg" alt="Ilustración panorámica" class="card-img" />
+        <div class="card-body">
+          <span class="badge">Foto Original: Panorámica 900×380</span>
+          <h2>Montañas Azules</h2>
+          <p>Misma proporción <code>16 / 10</code> sin aplastar la cordillera.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img src="img/foto-cuadrada.jpg" alt="Ilustración cuadrada" class="card-img" />
+        <div class="card-body">
+          <span class="badge">Foto Original: Cuadrada 500×500</span>
+          <h2>Núcleo Esmeralda</h2>
+          <p>Las 3 tarjetas mantienen exactamente la misma altura de imagen.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

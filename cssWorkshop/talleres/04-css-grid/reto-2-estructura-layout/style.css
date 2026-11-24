@@ -1,0 +1,28 @@
+/* =========================================================
+   RETO 04-B: CSS GRID — ESTRUCTURA GENERAL DE LAYOUT
+   Objetivo: Armar la estructura general (Header, Sidebar de 220px,
+   Main Content de 1fr con 3 widgets internos y Footer) usando CSS Grid
+   como se muestra en resultado-esperado.jpg.
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #090d16;
+  color: #f8fafc;
+  padding: 1.5rem;
+}
+
+/* 1. En .layout-grid activa display: grid con 2 columnas (220px 1fr),
+      3 filas (72px 1fr 60px), gap: 1rem y min-height: calc(100vh - 3rem) */
+
+
+/* 2. Haz que .header y .footer ocupen todas las columnas con grid-column: 1 / -1 */
+
+
+/* 3. En .sub-grid (dentro de .main-content) crea una grilla interna de 3 columnas iguales con repeat(3, 1fr) */

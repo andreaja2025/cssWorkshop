@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reto 04-B — Estructura General de Layout con CSS Grid</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="layout-grid">
+    <header class="header">
+      <span class="bloque-nombre">HEADER</span>
+      <code>grid-column: 1 / -1</code>
+    </header>
+
+    <aside class="sidebar">
+      <span class="bloque-nombre">SIDEBAR</span>
+      <code>220px</code>
+      <ul class="menu-skeleton">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <div class="main-top">
+        <span class="bloque-nombre">MAIN CONTENT</span>
+        <code>1fr (Espacio restante)</code>
+      </div>
+      <div class="sub-grid">
+        <div class="widget">Widget A</div>
+        <div class="widget">Widget B</div>
+        <div class="widget">Widget C</div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <span class="bloque-nombre">FOOTER</span>
+      <code>grid-column: 1 / -1</code>
+    </footer>
+  </div>
+</body>
+</html>

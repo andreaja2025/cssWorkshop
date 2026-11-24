@@ -1,0 +1,31 @@
+/* =========================================================
+   RETO 04-A: CSS GRID — MOSAICO BENTO (repeat, fr, span)
+   Objetivo: Construir una cuadrícula de 3 columnas con
+   grid-template-columns: repeat(3, 1fr) y expandir las celdas
+   especiales con grid-column y grid-row como en resultado-esperado.jpg.
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #090d16;
+  color: #f8fafc;
+  padding: 2.25rem;
+}
+
+/* 1. En .bento-grid activa display: grid, define 3 columnas iguales con repeat(3, 1fr),
+      filas de 170px 170px 100px y un gap de 1.25rem */
+
+
+/* 2. En .expandir-2-columnas haz que ocupe 2 columnas (grid-column: span 2) */
+
+
+/* 3. En .expandir-2-filas haz que ocupe 2 filas (grid-row: span 2) */
+
+
+/* 4. En .fila-completa haz que ocupe desde la primera hasta la última columna (grid-column: 1 / -1) */

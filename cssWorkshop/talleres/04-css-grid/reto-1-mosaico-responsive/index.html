@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reto 04-A — Bento Grid con repeat(), fr y span</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="contenedor">
+    <h1 class="titulo">Mosaico Bento con CSS Grid (<code>repeat(3, 1fr)</code> + <code>span</code>)</h1>
+    <section class="bento-grid">
+      <article class="celda expandir-2-columnas">
+        <span class="tag">grid-column: span 2</span>
+        <h2>1. Bloque Principal Ancho</h2>
+        <p>Ocupa 2 columnas completas de la cuadrícula de 3 columnas.</p>
+      </article>
+
+      <article class="celda expandir-2-filas">
+        <span class="tag">grid-row: span 2</span>
+        <h2>2. Panel Vertical</h2>
+        <p>Se extiende verticalmente a lo largo de 2 filas consecutivas.</p>
+      </article>
+
+      <article class="celda">
+        <span class="tag">1fr × 1</span>
+        <h2>3. Celda Estándar</h2>
+        <p>1 columna y 1 fila.</p>
+      </article>
+
+      <article class="celda">
+        <span class="tag">1fr × 1</span>
+        <h2>4. Celda Estándar</h2>
+        <p>1 columna y 1 fila.</p>
+      </article>
+
+      <article class="celda fila-completa">
+        <span class="tag">grid-column: 1 / -1 (o span 3)</span>
+        <h2>5. Barra Inferior a Ancho Completo</h2>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

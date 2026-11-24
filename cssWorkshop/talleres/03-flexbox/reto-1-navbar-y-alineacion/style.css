@@ -1,0 +1,30 @@
+/* =========================================================
+   RETO 03-A: FLEXBOX — NAVBAR Y ALINEACIÓN DE EJES
+   Objetivo: Ordenar la barra de navegación (.navbar) y la fila
+   de tarjetas (.fila-stats) usando display: flex, justify-content,
+   align-items, flex-direction y gap como en resultado-esperado.jpg.
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 2rem;
+}
+
+/* 1. En .navbar usa display: flex, justify-content: space-between y align-items: center */
+
+
+/* 2. En .nav-links usa display: flex y gap: 2rem para separar los enlaces */
+
+
+/* 3. En .fila-stats usa display: flex y gap: 1.5rem. Haz que cada .stat-card tenga flex: 1 y a su vez sea un contenedor flex para alinear el icono y el texto */
+
+
+/* 4. En .info usa display: flex y flex-direction: column para apilar .valor y .etiqueta */

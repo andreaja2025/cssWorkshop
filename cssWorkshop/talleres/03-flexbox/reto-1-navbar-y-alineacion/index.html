@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reto 03-A — Navbar y Tarjetas de Estadísticas con Flexbox</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">⚡ CSS<span>Flex</span></div>
+    <nav class="nav-links">
+      <a href="#">Inicio</a>
+      <a href="#">Propiedades</a>
+      <a href="#">Talleres</a>
+      <a href="#">Comunidad</a>
+    </nav>
+    <a href="#" class="btn-acceso">Ingresar</a>
+  </header>
+
+  <main class="panel-central">
+    <section class="fila-stats">
+      <article class="stat-card">
+        <div class="icono">🎯</div>
+        <div class="info">
+          <span class="valor">space-between</span>
+          <span class="etiqueta">Separa extremos en el eje principal</span>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <div class="icono">⚖️</div>
+        <div class="info">
+          <span class="valor">align-items: center</span>
+          <span class="etiqueta">Centra verticalmente en el eje transversal</span>
+        </div>
+      </article>
+
+      <article class="stat-card">
+        <div class="icono">📏</div>
+        <div class="info">
+          <span class="valor">gap: 1.5rem</span>
+          <span class="etiqueta">Espaciado limpio entre elementos hermanos</span>
+        </div>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

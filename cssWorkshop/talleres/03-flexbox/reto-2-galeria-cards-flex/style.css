@@ -1,0 +1,30 @@
+/* =========================================================
+   RETO 03-B: FLEXBOX MULTILÍNEA (flex-wrap, flex, order, align-self)
+   Objetivo: Hacer que las tarjetas salten de línea automáticamente
+   con flex-wrap: wrap, se repartan el espacio con flex: 1 1 260px
+   y mover la tarjeta .destacado al primer lugar usando order: -1.
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #0f172a;
+  color: #f8fafc;
+  padding: 2.25rem;
+}
+
+/* 1. En .galeria-planes activa display: flex, flex-wrap: wrap y gap: 1.25rem */
+
+
+/* 2. En .plan-card usa flex: 1 1 260px para que cada tarjeta mida al menos 260px y crezca para llenar la fila */
+
+
+/* 3. En .plan-card.destacado usa order: -1 y flex: 2 1 360px con borde #38bdf8 */
+
+
+/* 4. En .nivel usa align-self: flex-start para que la etiqueta no se estire a todo el ancho */

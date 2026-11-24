@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reto 03-B — Cards Adaptables con flex-wrap, flex y order</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="contenedor">
+    <h1 class="titulo">Planes de Entrenamiento CSS (<code>flex-wrap</code> + <code>order</code>)</h1>
+    <section class="galeria-planes">
+      <article class="plan-card">
+        <span class="nivel">MÓDULO 1</span>
+        <h2>Box Model &amp; Unidades</h2>
+        <p>Control de dimensiones reales con <code>border-box</code>, <code>rem</code> y <code>vh</code>.</p>
+        <span class="meta">Duración: 2 horas</span>
+      </article>
+
+      <article class="plan-card">
+        <span class="nivel">MÓDULO 2</span>
+        <h2>Imágenes y Fondos</h2>
+        <p>Recorte inteligente con <code>object-fit: cover</code> y <code>aspect-ratio</code>.</p>
+        <span class="meta">Duración: 2 horas</span>
+      </article>
+
+      <article class="plan-card">
+        <span class="nivel">MÓDULO 3</span>
+        <h2>Flexbox Completo</h2>
+        <p>Dominio de ejes, <code>flex-wrap</code>, <code>gap</code> y crecimiento dinámico.</p>
+        <span class="meta">Duración: 3 horas</span>
+      </article>
+
+      <!-- Esta tarjeta está de #4 en el HTML, pero debe aparecer de PRIMERA gracias a order: -1 -->
+      <article class="plan-card destacado">
+        <span class="nivel badge-estrella">⭐ RECOMENDADO (order: -1)</span>
+        <h2>Ruta Completa Full CSS</h2>
+        <p>En el código HTML soy la tarjeta #4, pero con <code>order: -1</code> aparezco en primer lugar.</p>
+        <span class="meta">Incluye los 4 talleres prácticos</span>
+      </article>
+
+      <article class="plan-card">
+        <span class="nivel">MÓDULO 4</span>
+        <h2>CSS Grid Layout</h2>
+        <p>Cuadrículas bidimensionales con <code>fr</code>, <code>repeat()</code> y <code>span</code>.</p>
+        <span class="meta">Duración: 3 horas</span>
+      </article>
+    </section>
+  </main>
+</body>
+</html>

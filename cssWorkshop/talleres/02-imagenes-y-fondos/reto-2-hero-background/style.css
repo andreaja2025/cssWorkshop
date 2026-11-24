@@ -1,0 +1,29 @@
+/* =========================================================
+   RETO 02-B: FONDOS CSS (background-image, background-size,
+              background-position, background-repeat)
+   Objetivo: Configurar la tarjeta .hero-card con la imagen
+   "paisaje-hero.jpg" de fondo sin repetirse, centrada y cubriendo
+   todo el bloque como en resultado-esperado.jpg.
+   ========================================================= */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: #090d16;
+  color: #ffffff;
+  padding: 3rem 2rem;
+}
+
+/* 1. Configura .wrapper con max-width: 900px y centrado automático */
+
+
+/* 2. En .hero-card agrega background-image (puedes combinar linear-gradient oscuro + url("paisaje-hero.jpg")),
+      background-size: cover, background-position: center, background-repeat: no-repeat y min-height: 440px */
+
+
+/* 3. Da formato a .hero-contenido, .tag-hero, h1, p y .btn-reserva */
